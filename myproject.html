@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home to Introverts</title>
+    <link rel="stylesheet" href="myproject.css">
+</head>
+<body>
+    <!-- Header Section -->
+     <!-- Header Section -->
+     <header>
+        <nav class="navbar">
+            <div class="navbar-brand">Home to Introverts</div>
+            <ul class="navbar-links">
+                <!-- Change this link to point to the login page -->
+                <li><a href="loginpage.html" id="login-page-link">Login/signup</a></li>
+                <li><a href="#stories">Stories</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Feel Free to Share Yourself Here!</h1>
+            <p>Let your thoughts flow and be heard. A space for introverts to connect and inspire!</p>
+            <a href="#story-form" id="cta-button" class="cta-button">Submit Your Story</a>
+        </div>
+    </header>
+    <main>
+        <!-- Story Submission Form -->
+        <section id="story-form" style="display: none;"> <!-- Initially hidden -->
+            <h2>Submit Your Story</h2>
+            <form id="submit-story">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" placeholder="Enter your story title" required>
+                
+                <label for="category">Category:</label>
+                <select id="category" name="category" required>
+                    <option value="real-life">Real Life</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="horror">Horror</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="science-fiction">Science Fiction</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="romance">Romance</option>
+                    <option value="adventure">Adventure</option>
+                </select>
+                
+                <label for="content">Story:</label>
+                <textarea id="content" name="content" rows="5" placeholder="Write your story here..." required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Stories Section -->
+        <section id="stories">
+            <h2>Shared Stories</h2>
+            
+            <!-- Story 1 -->
+            <div class="story-section">
+                <h3>The Enchanted Forest</h3>
+                <p>Deep in the woods lies a magical place where the trees whisper secrets and mythical creatures roam freely.</p>
+                <div class="story-footer">
+                    <span class="category">Category: Fantasy</span>
+                </div>
+            </div>
+        
+            <!-- Story 2 -->
+            <div class="story-section">
+                <h3>Lost in the City</h3>
+                <p>Amidst the bustling streets, a lone wanderer finds unexpected kindness and learns the true meaning of home.</p>
+                <div class="story-footer">
+                    <span class="category">Category: Real Life</span>
+                </div>
+            </div>
+        
+            <!-- Story 3 -->
+            <div class="story-section">
+                <h3>The Time Traveler</h3>
+                <p>In a small laboratory, a scientist discovers how to travel through time, changing the fate of humanity forever.</p>
+                <div class="story-footer">
+                    <span class="category">Category: Science Fiction</span>
+                </div>
+            </div>
+        
+            <!-- Story 4 -->
+            <div class="story-section">
+                <h3>The Haunted Manor</h3>
+                <p>An old abandoned manor holds dark secrets and a ghostly presence that terrorizes its visitors.</p>
+                <div class="story-footer">
+                    <span class="category">Category: Horror</span>
+                </div>
+            </div>
+        
+            <!-- Story 5 -->
+            <div class="story-section">
+                <h3>Comedy of Errors</h3>
+                <p>When a group of friends accidentally swap phones, hilarity ensues as they try to make sense of each other's lives.</p>
+                <div class="story-footer">
+                    <span class="category">Category: Comedy</span>
+                </div>
+            </div>
+        
+            <!-- Story 6 -->
+            <div class="story-section">
+                <h3>The Hidden Kingdom</h3>
+                <p>A daring adventurer embarks on a journey to find a lost kingdom hidden deep in the mountains.</p>
+                <div class="story-footer">
+                    <span class="category">Category: Adventure</span>
+                </div>
+            </div>
+        
+            <!-- Story 7 -->
+            <div class="story-section">
+                <h3>Romance Under the Stars</h3>
+                <p>Two strangers meet under a starlit sky, sharing stories and dreams that change their lives forever.</p>
+                <div class="story-footer">
+                    <span class="category">Category: Romance</span>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>© 2025 Home to Introverts. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

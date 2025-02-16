@@ -1,0 +1,64 @@
+/* General Styling */
+.submit-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .submit-container h2 {
+    font-size: 2rem;
+    color: #ff3c3c;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .input-group textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff3c3c, #ff5e5e);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background: linear-gradient(90deg, #e22e2e, #ff4a4a);
+  }
+  

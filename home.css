@@ -1,0 +1,120 @@
+/* ✅ General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ✅ Navbar Fixed at the Top */
+.navbar {
+  background: linear-gradient(to right, #ff0000, #ff4d4d); /* Your original color */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between; /* Aligns brand left, links right */
+  align-items: center;
+  position: fixed; /* Keeps it at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures navbar is above everything */
+  height: 60px;
+}
+
+/* ✅ "Home to Introverts" (White, Bold & Clickable) */
+.navbar-brand {
+  font-size: 22px;
+  font-weight: bold;
+  color: white !important;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* ✅ Navbar Links */
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+/* ✅ Navbar Links Styling */
+.navbar-links a {
+  color: white !important;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* ✅ Login/Signup Button (Always Visible) */
+.login-btn {
+  padding: 8px 12px;
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block; /* Ensures it stays visible */
+}
+.stories-btn{
+  padding: 8px 12px;
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block; /* Ensures it stays visible */
+}
+
+
+
+/* ✅ Hover Effect */
+.login-btn:hover {
+  background: #ff4d4d;
+  color: white;
+}
+
+/* ✅ Ensure Navbar Does Not Overlap Page Content */
+body {
+  padding-top: 70px; /* Prevents content from hiding behind navbar */
+  background-color: #ffe6e6; /* Light background for better readability */
+}
+
+.hero {
+  margin-top: 10px;  /* 👈 Perfectly places it just below navbar */
+  background: linear-gradient(to right, #ff0000, #ff4d4d);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* ✅ Submit Your Story Button */
+.submit-story {
+  display: inline-block;
+  background: white;
+  color: #ff0000;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 2px solid #ff0000;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #ff4d4d;
+  color: white;
+}
